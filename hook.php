@@ -4,7 +4,7 @@ spl_autoload_register(function ($class) {
     require_once(str_replace('\\', '/', $class . '.php'));
 });
 
-use Project\Hook\Client, Project\Hook\Client as Client;
+use Project\Hook\Client as Client;
 
 $hook = Client::configure(array(
   'app_id' => 1,
