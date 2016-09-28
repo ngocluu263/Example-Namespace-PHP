@@ -1,5 +1,5 @@
 <?php
-namespace Hook;
+namespace Project\Hook;
 
 class Client {
 	protected static $instance;
