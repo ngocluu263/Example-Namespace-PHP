@@ -6,7 +6,9 @@
 
 use Project\Hook\Client as Client;
 
-$hook = Client::configure(array(
+$hook = new Client()
+
+$hook::configure(array(
   'app_id' => 1,
   'key' => '638d9ba9643e568c1065084e3e67fb7e',
   'endpoint' => 'http://172.16.4.56:4665/index.php/'
